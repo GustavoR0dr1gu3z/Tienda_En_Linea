@@ -19,5 +19,5 @@ from apps.WebStore import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name="index"), #Para la plantilla principal
+    path('usuarios/index', views.indexC, name="indexC"), #Para la plantilla principal
 ]
